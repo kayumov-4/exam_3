@@ -1,5 +1,5 @@
 "use strict";
-const baseURL = "http://localhost:3000";
+const baseURL = "https://exam-3-data3.onrender.com";
 const btnLeft = document.querySelector("#btn_left");
 const btnRight = document.querySelector("#btn_right");
 const carousel = document.querySelector("#comments_wrapper");
