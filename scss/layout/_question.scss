@@ -1,0 +1,548 @@
+#question {
+  margin-top: 80px;
+  .question_card {
+    overflow: hidden;
+    padding: 20px;
+    justify-content: space-between;
+    display: flex;
+    height: 200px;
+    width: 100%;
+    border-radius: 20px;
+    background: rgba(47, 43, 67, 0.04);
+    h4 {
+      margin-top: 21px;
+      margin-left: 33px;
+      max-width: 295px;
+      color: #140a32;
+      font-family: OpenBold;
+      font-size: 32px;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: -0.96px;
+    }
+    &_center {
+      margin-top: 27px;
+      form {
+        .btns {
+          display: flex;
+          align-items: center;
+          gap: 15px;
+          .form_number {
+            height: 56px;
+            width: 201px;
+            padding: 7px 16px 8px 16px;
+            border-radius: 10px;
+            background: white;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            gap: 3px;
+            label {
+              color: rgba(47, 43, 67, 0.4);
+              text-align: center;
+              font-size: 12px;
+              font-style: normal;
+              line-height: normal;
+            }
+            input[type="number"] {
+              outline: none;
+              border: transparent;
+              background: transparent;
+              &::placeholder {
+                line-height: normal;
+                margin-top: 3px;
+                color: #140a32;
+                font-size: 16px;
+              }
+            }
+          }
+          .btn_mobile {
+            display: none;
+          }
+          input[type="submit"] {
+            height: 56px;
+            border-radius: 10px;
+            color: white;
+            text-align: center;
+            font-family: OpenSemibold;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            background: #33836e;
+            padding: 16px 36px;
+            border: 1px solid #fff;
+          }
+        }
+        .submit_1 {
+          display: none;
+        }
+      }
+      .box_txt {
+        max-width: 293px;
+        margin-top: 22px;
+        color: rgba(47, 43, 67, 0.4);
+        font-family: OpenRegular;
+        font-size: 12px;
+        font-style: normal;
+        line-height: normal;
+        span {
+          color: rgba(47, 43, 67, 0.4);
+          font-family: OpenRegular;
+          font-size: 12px;
+          font-style: normal;
+          line-height: normal;
+        }
+      }
+    }
+    img {
+      margin-top: -20px;
+    }
+  }
+}
+@media only screen and (max-width: 1120px) {
+  #question {
+    margin-top: 80px;
+    .question_card {
+      overflow: hidden;
+      padding: 20px;
+      justify-content: space-between;
+      display: flex;
+      height: 200px;
+      width: 100%;
+      border-radius: 20px;
+      background: rgba(47, 43, 67, 0.04);
+      h4 {
+        margin-top: 40px;
+        margin-left: 33px;
+        max-width: 295px;
+        color: #140a32;
+        font-family: OpenBold;
+        font-size: 28px;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: -0.96px;
+      }
+      &_center {
+        margin-top: 27px;
+        form {
+          .btns {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            .form_number {
+              height: 56px;
+              width: 201px;
+              padding: 7px 16px 8px 16px;
+              border-radius: 10px;
+              background: white;
+              display: flex;
+              align-items: flex-start;
+              flex-direction: column;
+              gap: 3px;
+              label {
+                color: rgba(47, 43, 67, 0.4);
+                text-align: center;
+                font-size: 12px;
+                font-style: normal;
+                line-height: normal;
+              }
+              input[type="number"] {
+                outline: none;
+                border: transparent;
+                background: transparent;
+                &::placeholder {
+                  line-height: normal;
+                  margin-top: 3px;
+                  color: #140a32;
+                  font-size: 16px;
+                }
+              }
+            }
+            .btn_mobile {
+              display: none;
+            }
+            input[type="submit"] {
+              height: 56px;
+              border-radius: 10px;
+              color: white;
+              text-align: center;
+              font-family: OpenSemibold;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: normal;
+              background: #33836e;
+              padding: 16px 36px;
+              border: 1px solid #fff;
+            }
+          }
+          .submit_1 {
+            display: none;
+          }
+        }
+        .box_txt {
+          max-width: 293px;
+          margin-top: 22px;
+          color: rgba(47, 43, 67, 0.4);
+          font-family: OpenRegular;
+          font-size: 12px;
+          font-style: normal;
+          line-height: normal;
+          span {
+            color: rgba(47, 43, 67, 0.4);
+            font-family: OpenRegular;
+            font-size: 12px;
+            font-style: normal;
+            line-height: normal;
+          }
+        }
+      }
+      img {
+        margin-top: -20px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1060px) {
+  #question {
+    margin-top: 80px;
+    .question_card {
+      overflow: hidden;
+      padding: 15px;
+      justify-content: space-between;
+      display: flex;
+      height: 200px;
+      width: 100%;
+      border-radius: 20px;
+      background: rgba(47, 43, 67, 0.04);
+      h4 {
+        margin-top: 50px;
+        margin-left: 33px;
+        max-width: 295px;
+        color: #140a32;
+        font-family: OpenBold;
+        font-size: 24px;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: -0.96px;
+      }
+      &_center {
+        margin-top: 27px;
+        form {
+          .btns {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            .form_number {
+              height: 56px;
+              width: 150px;
+              padding: 7px 16px 8px 16px;
+              border-radius: 10px;
+              background: white;
+              display: flex;
+              align-items: flex-start;
+              flex-direction: column;
+              gap: 3px;
+              label {
+                color: rgba(47, 43, 67, 0.4);
+                text-align: center;
+                font-size: 12px;
+                font-style: normal;
+                line-height: normal;
+              }
+              input[type="number"] {
+                outline: none;
+                border: transparent;
+                background: transparent;
+                &::placeholder {
+                  line-height: normal;
+                  margin-top: 3px;
+                  color: #140a32;
+                  font-size: 16px;
+                }
+              }
+            }
+            .btn_mobile {
+              display: none;
+            }
+            input[type="submit"] {
+              text-align: center;
+              align-items: center;
+              justify-content: center;
+              width: 150px;
+              height: 56px;
+              border-radius: 10px;
+              color: white;
+              text-align: center;
+              font-family: OpenSemibold;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: normal;
+              background: #33836e;
+              padding: 16px 36px;
+              border: 1px solid #fff;
+            }
+          }
+          .submit_1 {
+            display: none;
+          }
+          .submit_2 {
+            display: flex;
+          }
+        }
+        .box_txt {
+          max-width: 293px;
+          margin-top: 22px;
+          color: rgba(47, 43, 67, 0.4);
+          font-family: OpenRegular;
+          font-size: 12px;
+          font-style: normal;
+          line-height: normal;
+          span {
+            color: rgba(47, 43, 67, 0.4);
+            font-family: OpenRegular;
+            font-size: 12px;
+            font-style: normal;
+            line-height: normal;
+          }
+        }
+      }
+      img {
+        margin-top: -20px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 920px) {
+  #question {
+    margin-top: 60px;
+    .question_card {
+      overflow: hidden;
+      padding: 15px;
+      justify-content: space-between;
+      display: flex;
+      height: 200px;
+      width: 100%;
+      border-radius: 20px;
+      background: rgba(47, 43, 67, 0.04);
+      h4 {
+        margin-top: 50px;
+        margin-left: 33px;
+        max-width: 295px;
+        color: #140a32;
+        font-family: OpenBold;
+        font-size: 24px;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: -0.96px;
+      }
+      &_center {
+        margin-top: 27px;
+        form {
+          .btns {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            .form_number {
+              height: 56px;
+              width: 150px;
+              padding: 7px 16px 8px 16px;
+              border-radius: 10px;
+              background: white;
+              display: flex;
+              align-items: flex-start;
+              flex-direction: column;
+              gap: 3px;
+              label {
+                color: rgba(47, 43, 67, 0.4);
+                text-align: center;
+                font-size: 12px;
+                font-style: normal;
+                line-height: normal;
+              }
+              input[type="number"] {
+                outline: none;
+                border: transparent;
+                background: transparent;
+                &::placeholder {
+                  line-height: normal;
+                  margin-top: 3px;
+                  color: #140a32;
+                  font-size: 16px;
+                }
+              }
+            }
+            .btn_mobile {
+              display: none;
+            }
+            input[type="submit"] {
+              text-align: center;
+              align-items: center;
+              justify-content: center;
+              width: 150px;
+              height: 56px;
+              border-radius: 10px;
+              color: white;
+              text-align: center;
+              font-family: OpenSemibold;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: normal;
+              background: #33836e;
+              padding: 16px 36px;
+              border: 1px solid #fff;
+            }
+          }
+          .submit_1 {
+            display: none;
+          }
+          .submit_2 {
+            display: flex;
+          }
+        }
+        .box_txt {
+          max-width: 293px;
+          margin-top: 22px;
+          color: rgba(47, 43, 67, 0.4);
+          font-family: OpenRegular;
+          font-size: 12px;
+          font-style: normal;
+          line-height: normal;
+          span {
+            color: rgba(47, 43, 67, 0.4);
+            font-family: OpenRegular;
+            font-size: 12px;
+            font-style: normal;
+            line-height: normal;
+          }
+        }
+      }
+      img {
+        display: none;
+        margin-top: -20px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 650px) {
+  #question {
+    margin-top: 40px;
+    .question_card {
+      position: relative;
+      flex-direction: column;
+      overflow: hidden;
+      padding: 15px;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      height: 500px;
+      width: 100%;
+      padding-top: 30px;
+      border-radius: 20px;
+      background: rgba(47, 43, 67, 0.04);
+      h4 {
+        text-align: center;
+        margin-top: 0px;
+        margin-left: 0px;
+        max-width: 100%;
+        color: #140a32;
+        font-family: OpenBold;
+        font-size: 24px;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: -0.96px;
+      }
+      &_center {
+        margin-top: 27px;
+        form {
+          .btns {
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            .form_number {
+              height: 56px;
+              width: 100%;
+              padding: 7px 16px 8px 16px;
+              border-radius: 10px;
+              background: white;
+              display: flex;
+              align-items: flex-start;
+              flex-direction: column;
+              gap: 3px;
+              label {
+                color: rgba(47, 43, 67, 0.4);
+                text-align: center;
+                font-size: 12px;
+                font-style: normal;
+                line-height: normal;
+              }
+              input[type="number"] {
+                outline: none;
+                border: transparent;
+                background: transparent;
+                &::placeholder {
+                  line-height: normal;
+                  margin-top: 3px;
+                  color: #140a32;
+                  font-size: 16px;
+                }
+              }
+            }
+            .btn_mobile {
+              display: none;
+            }
+            input[type="submit"] {
+              width: 100%;
+
+              text-align: center;
+              align-items: center;
+              justify-content: center;
+              height: 56px;
+              border-radius: 10px;
+              color: white;
+              text-align: center;
+              font-family: OpenSemibold;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: normal;
+              background: #33836e;
+              padding: 16px 36px;
+              border: 1px solid #fff;
+            }
+          }
+          .submit_1 {
+            display: flex;
+          }
+          .submit_2 {
+            display: none;
+          }
+        }
+        .box_txt {
+          max-width: 293px;
+          margin-top: 22px;
+          color: rgba(47, 43, 67, 0.4);
+          font-family: OpenRegular;
+          font-size: 12px;
+          font-style: normal;
+          line-height: normal;
+          span {
+            color: rgba(47, 43, 67, 0.4);
+            font-family: OpenRegular;
+            font-size: 12px;
+            font-style: normal;
+            line-height: normal;
+          }
+        }
+      }
+      img {
+        margin-top: 10px;
+        display: block;
+      }
+    }
+  }
+}

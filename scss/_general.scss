@@ -1,0 +1,118 @@
+*::after,
+*::before,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: OpenRegular;
+}
+
+@font-face {
+  font-family: OpenBold;
+  src: url(../assets/fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: OpenRegular;
+  src: url(../assets/fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: OpenSemibold;
+  src: url(../assets/fonts/OpenSans-SemiBold.ttf);
+}
+
+main {
+  margin-top: 132px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.card {
+  cursor: pointer;
+  &:hover {
+    transition: 0.3s ease all;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+}
+.mini__card {
+  cursor: pointer;
+  &:hover {
+    transition: 0.3s ease all;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+}
+
+.consultation__card {
+  cursor: pointer;
+  &:hover {
+    transition: 0.3s ease all;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+}
+
+.specializes__card {
+  cursor: pointer;
+  &:hover {
+    transition: 0.3s ease all;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+}
+
+.lawyers_card {
+  cursor: pointer;
+  &:hover {
+    transition: 0.3s ease all;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+}
+
+footer {
+  a:hover,
+  h5:hover {
+    cursor: pointer;
+    transition: 0.2s ease all;
+    color: #33836e;
+  }
+}
+
+#comments {
+  .btns {
+    div:hover {
+      background: #33836e;
+      transition: 0.5s ease all;
+      svg {
+        path {
+          fill: white;
+          fill-opacity: 1;
+        }
+      }
+    }
+  }
+}

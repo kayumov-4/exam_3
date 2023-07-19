@@ -1,0 +1,234 @@
+#header_info {
+  .content {
+    display: flex;
+    height: 44px;
+    justify-content: space-between;
+    a {
+      color: #140a32;
+    }
+    .content_btns {
+      display: flex;
+    }
+    &__btn {
+      display: flex;
+      background: transparent;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 20px;
+      border-radius: 10px;
+      border: 1px solid rgba(47, 43, 67, 0.15);
+      p {
+        min-width: 128px;
+        color: #140a32;
+        font-size: 16px;
+      }
+    }
+    .second_btn {
+      p {
+        min-width: 70px;
+      }
+      margin-left: 15px;
+    }
+    &__list {
+      align-items: center;
+      column-gap: 30px;
+      display: flex;
+    }
+    &__login {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+}
+@media only screen and (max-width: 1100px) {
+  #header_info {
+    .content {
+      display: flex;
+      height: 44px;
+      justify-content: space-between;
+      a {
+        font-size: 14px;
+        color: #140a32;
+      }
+      .content_btns {
+        display: flex;
+      }
+      &__btn {
+        display: flex;
+        background: transparent;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: 1px solid rgba(47, 43, 67, 0.15);
+        p {
+          min-width: 128px;
+          color: #140a32;
+          font-size: 16px;
+        }
+      }
+      .second_btn {
+        p {
+          min-width: 70px;
+        }
+        margin-left: 15px;
+      }
+      &__list {
+        align-items: center;
+        column-gap: 10px;
+        display: flex;
+      }
+      &__login {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 930px) {
+  #header_info {
+    .content {
+      display: flex;
+      height: 44px;
+      justify-content: space-between;
+      a {
+        font-size: 14px;
+        color: #140a32;
+      }
+      .content_btns {
+        display: flex;
+      }
+      &__btn {
+        display: flex;
+        background: transparent;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: 1px solid rgba(47, 43, 67, 0.15);
+        p {
+          min-width: 128px;
+          color: #140a32;
+          font-size: 16px;
+        }
+      }
+      .second_btn {
+        p {
+          min-width: 70px;
+        }
+        margin-left: 15px;
+      }
+      &__list {
+        display: none;
+        align-items: center;
+        column-gap: 10px;
+      }
+      &__login {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 650px) {
+  #header_info {
+    .content {
+      margin-top: 10px;
+      display: flex;
+      height: 44px;
+      justify-content: space-between;
+      a {
+        font-size: 14px;
+        color: #140a32;
+      }
+      .content_btns {
+        display: flex;
+      }
+      &__btn {
+        display: flex;
+        background: transparent;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: 1px solid rgba(47, 43, 67, 0.15);
+        p {
+          min-width: 128px;
+          color: #140a32;
+          font-size: 16px;
+        }
+      }
+      .second_btn {
+        p {
+          min-width: 70px;
+        }
+        margin-left: 15px;
+      }
+      &__list {
+        display: none;
+        align-items: center;
+        column-gap: 10px;
+      }
+      &__login {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 550px) {
+  #header_info {
+    .content {
+      margin-top: -30px;
+      display: flex;
+      height: 44px;
+      justify-content: space-between;
+      a {
+        font-size: 14px;
+        color: #140a32;
+      }
+      .content_btns {
+        display: flex;
+      }
+      &__btn {
+        display: flex;
+        background: transparent;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: 1px solid rgba(47, 43, 67, 0.15);
+        p {
+          min-width: 128px;
+          color: #140a32;
+          font-size: 16px;
+        }
+      }
+      .second_btn {
+        p {
+          min-width: 70px;
+        }
+        margin-left: 15px;
+      }
+      &__list {
+        display: none;
+        align-items: center;
+        column-gap: 10px;
+      }
+      &__login {
+        display: none;
+        align-items: center;
+        gap: 10px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 390px) {
+  #header_info {
+    display: none;
+  }
+}

@@ -1,0 +1,442 @@
+#needHelp {
+  h4 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    line-height: normal;
+    letter-spacing: -0.96px;
+    font-family: OpenBold;
+  }
+  .wrapper {
+    margin-bottom: 80px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    gap: 20px;
+    display: flex;
+    .consultation__card {
+      gap: 20px;
+      border-radius: 20px;
+      padding: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 560px;
+      height: 180px;
+      padding: 30px;
+      border: 1px solid rgba(47, 43, 67, 0.15);
+      p {
+        max-width: 350px;
+        font-size: 16px;
+        font-style: normal;
+        line-height: 150%;
+      }
+      span {
+        font-family: OpenBold;
+      }
+      .card__ellipse {
+        background: #ebf2f0;
+        display: flex;
+        justify-content: center;
+        padding: 35px;
+        align-items: center;
+        border-radius: 9999px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1180px) {
+  #needHelp {
+    h4 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      line-height: normal;
+      letter-spacing: -0.96px;
+      font-family: OpenBold;
+    }
+    .wrapper {
+      margin-bottom: 80px;
+      margin-top: 30px;
+      flex-wrap: wrap;
+      gap: 20px;
+      display: flex;
+      .consultation__card {
+        margin: 0 auto;
+        gap: 20px;
+        border-radius: 20px;
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 500px;
+        height: 180px;
+        padding: 30px;
+        border: 1px solid rgba(47, 43, 67, 0.15);
+        p {
+          max-width: 350px;
+          font-size: 16px;
+          font-style: normal;
+          line-height: 150%;
+        }
+        span {
+          font-family: OpenBold;
+        }
+        .card__ellipse {
+          background: #ebf2f0;
+          display: flex;
+          justify-content: center;
+          padding: 35px;
+          align-items: center;
+          border-radius: 9999px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1060px) {
+  #needHelp {
+    h4 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      line-height: normal;
+      letter-spacing: -0.96px;
+      font-family: OpenBold;
+    }
+    .wrapper {
+      margin-bottom: 80px;
+      margin-top: 30px;
+      flex-wrap: wrap;
+      gap: 20px;
+      display: flex;
+      .consultation__card {
+        margin: 0 auto;
+        gap: 20px;
+        border-radius: 20px;
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 470px;
+        height: 200px;
+        padding: 30px;
+        border: 1px solid rgba(47, 43, 67, 0.15);
+        p {
+          max-width: 350px;
+          font-size: 16px;
+          font-style: normal;
+          line-height: 150%;
+        }
+        span {
+          font-family: OpenBold;
+        }
+        .card__ellipse {
+          background: #ebf2f0;
+          display: flex;
+          justify-content: center;
+          padding: 35px;
+          align-items: center;
+          border-radius: 9999px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1000px) {
+  #needHelp {
+    h4 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      line-height: normal;
+      letter-spacing: -0.96px;
+      font-family: OpenBold;
+    }
+    .wrapper {
+      margin-bottom: 80px;
+      margin-top: 30px;
+      flex-wrap: wrap;
+      gap: 20px;
+      display: flex;
+      .consultation__card {
+        margin: 0 auto;
+        gap: 20px;
+        border-radius: 20px;
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 450px;
+        height: 220px;
+        padding: 30px;
+        border: 1px solid rgba(47, 43, 67, 0.15);
+        p {
+          max-width: 350px;
+          font-size: 16px;
+          font-style: normal;
+          line-height: 150%;
+        }
+        span {
+          font-family: OpenBold;
+        }
+        .card__ellipse {
+          background: #ebf2f0;
+          display: flex;
+          justify-content: center;
+          padding: 35px;
+          align-items: center;
+          border-radius: 9999px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 960px) {
+  #needHelp {
+    h4 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      line-height: normal;
+      letter-spacing: -0.96px;
+      font-family: OpenBold;
+    }
+    .wrapper {
+      margin-bottom: 80px;
+      margin-top: 30px;
+      flex-wrap: wrap;
+      gap: 15px;
+      display: flex;
+      .consultation__card {
+        margin: 0 auto;
+        gap: 20px;
+        border-radius: 20px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 400px;
+        height: 220px;
+        padding: 30px;
+        border: 1px solid rgba(47, 43, 67, 0.15);
+        p {
+          max-width: 350px;
+          font-size: 14px;
+          font-style: normal;
+          line-height: 150%;
+        }
+        span {
+          font-family: OpenBold;
+        }
+        .card__ellipse {
+          background: #ebf2f0;
+          display: flex;
+          justify-content: center;
+          padding: 25px;
+          align-items: center;
+          border-radius: 9999px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 850px) {
+  #needHelp {
+    h4 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      line-height: normal;
+      letter-spacing: -0.96px;
+      font-family: OpenBold;
+    }
+    .wrapper {
+      margin-bottom: 80px;
+      margin-top: 30px;
+      flex-wrap: wrap;
+      gap: 15px;
+      display: flex;
+      .consultation__card {
+        margin: 0 auto;
+        gap: 40px;
+        border-radius: 20px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        height: 220px;
+        padding: 30px;
+        border: 1px solid rgba(47, 43, 67, 0.15);
+        p {
+          max-width: 550px;
+          font-size: 18px;
+          font-style: normal;
+          line-height: 150%;
+        }
+        span {
+          font-family: OpenBold;
+        }
+        .card__ellipse {
+          background: #ebf2f0;
+          display: flex;
+          justify-content: center;
+          padding: 25px;
+          align-items: center;
+          border-radius: 9999px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 576px) {
+  #needHelp {
+    h4 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      line-height: normal;
+      letter-spacing: -0.96px;
+      font-family: OpenBold;
+    }
+    .wrapper {
+      margin-bottom: 80px;
+      margin-top: 30px;
+      flex-wrap: wrap;
+      gap: 15px;
+      display: flex;
+      .consultation__card {
+        margin: 0 auto;
+        gap: 40px;
+        border-radius: 20px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        height: 220px;
+        padding: 30px;
+        border: 1px solid rgba(47, 43, 67, 0.15);
+        p {
+          max-width: 550px;
+          font-size: 16px;
+          font-style: normal;
+          line-height: 150%;
+        }
+        span {
+          font-family: OpenBold;
+        }
+        .card__ellipse {
+          background: #ebf2f0;
+          display: flex;
+          justify-content: center;
+          padding: 15px;
+          align-items: center;
+          border-radius: 9999px;
+          img {
+            scale: 0.8;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 435px) {
+  #needHelp {
+    h4 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      line-height: normal;
+      letter-spacing: -0.96px;
+      font-family: OpenBold;
+    }
+    .wrapper {
+      margin-bottom: 80px;
+      margin-top: 30px;
+      flex-wrap: wrap;
+      gap: 15px;
+      display: flex;
+      .consultation__card {
+        margin: 0 auto;
+        gap: 20px;
+        border-radius: 20px;
+        padding: 20px !important;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        height: 220px;
+        border: 1px solid rgba(47, 43, 67, 0.15);
+        p {
+          max-width: 550px;
+          font-size: 14px;
+          font-style: normal;
+          line-height: 150%;
+        }
+        span {
+          font-family: OpenBold;
+        }
+        .card__ellipse {
+          background: #ebf2f0;
+          display: flex;
+          justify-content: center;
+          padding: 10px;
+          align-items: center;
+          border-radius: 9999px;
+          img {
+            scale: 0.6;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 390px) {
+  #needHelp {
+    h4 {
+      font-size: 20px;
+      margin-bottom: 20px;
+      line-height: normal;
+      letter-spacing: -0.96px;
+      font-family: OpenBold;
+    }
+    .wrapper {
+      margin-bottom: 40px;
+      margin-top: 30px;
+      flex-wrap: wrap;
+      gap: 10px;
+      display: flex;
+
+      .consultation__card {
+        gap: 15px;
+        flex-direction: column;
+        border-radius: 20px;
+        padding: 20px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 100%;
+        height: 214px;
+        padding: 20px;
+        border: 1px solid rgba(47, 43, 67, 0.15);
+        p {
+          max-width: 100%;
+          font-size: 14px;
+          font-style: normal;
+          line-height: 150%;
+        }
+        span {
+          font-family: OpenBold;
+        }
+        .card__ellipse {
+          background: #ebf2f0;
+          display: flex;
+          justify-content: center;
+          padding: 15px;
+          align-items: center;
+          border-radius: 9999px;
+          img {
+            width: 24px;
+            height: 24px;
+          }
+        }
+      }
+      .consultation__card:nth-child(1) {
+        height: 193px;
+      }
+    }
+  }
+}

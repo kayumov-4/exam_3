@@ -1,0 +1,1200 @@
+#consultation {
+  margin-top: 100px;
+  h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    line-height: normal;
+    letter-spacing: -0.96px;
+    font-family: OpenBold;
+  }
+  &__desc {
+    color: #140a32;
+    font-family: OpenRegular;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 160%;
+  }
+  h3 {
+    margin-top: 80px;
+    font-size: 32px;
+    margin-bottom: 20px;
+    line-height: normal;
+    letter-spacing: -0.96px;
+    font-family: OpenBold;
+    margin-bottom: 15px;
+  }
+  .wrapper {
+    margin-bottom: 80px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    gap: 20px;
+    display: flex;
+    .mini__card {
+      position: relative;
+      gap: 15px;
+      border-radius: 20px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      width: 270px;
+      height: 180px;
+      border: 1px solid rgba(47, 43, 67, 0.15);
+      p {
+        max-width: 230px;
+        font-size: 16px;
+        font-style: normal;
+      }
+      .bold_number {
+        font-size: 20px;
+        font-family: OpenBold;
+      }
+      a {
+        bottom: 20px;
+        left: 20px;
+        position: absolute;
+        text-decoration: none;
+        color: #33836e;
+        font-size: 16px;
+        font-family: OpenSemibold;
+      }
+    }
+  }
+  .banner {
+    margin-bottom: 80px;
+    display: flex;
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    background: #33836e;
+    position: relative;
+    overflow: hidden;
+    picture {
+      z-index: 2;
+      margin-left: 36px;
+    }
+    .round {
+      position: absolute;
+      top: 30px;
+    }
+    .round2 {
+      display: none;
+    }
+    .banner__info {
+      h3 {
+        margin-top: 50px;
+        color: #fff;
+        font-family: OpenSemibold;
+        font-size: 24px;
+        line-height: normal;
+        margin-bottom: 10px;
+      }
+      .number2 {
+        color: #fff;
+        font-family: OpenBold;
+        font-size: 42px;
+        letter-spacing: -1.26px;
+      }
+    }
+    .lawyers {
+      padding-top: 50px;
+      margin-left: 116px;
+      width: 260px;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      &__txt {
+        color: #fff;
+        text-align: center;
+        font-family: OpenSemibold;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        padding-bottom: 20px;
+      }
+      &__photos {
+        position: relative;
+        .lawyer1 {
+          z-index: 1;
+        }
+        .lawyer2 {
+          position: absolute;
+          z-index: 2;
+          left: 24px;
+        }
+        .lawyer3 {
+          position: absolute;
+          z-index: 3;
+          left: 48px;
+        }
+        .lawyer4 {
+          position: absolute;
+          z-index: 4;
+          left: 71px;
+        }
+        .lawyer5 {
+          position: absolute;
+          z-index: 5;
+          left: 94px;
+        }
+        .lawyer6 {
+          position: absolute;
+          z-index: 6;
+          left: 119px;
+        }
+        .lawyer7 {
+          position: absolute;
+          z-index: 6;
+          left: 140px;
+        }
+      }
+    }
+  }
+}
+
+// ----------------------------------------------------------------
+@media only screen and (max-width: 1120px) {
+  #consultation {
+    margin-top: 100px;
+    h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      line-height: normal;
+      letter-spacing: -0.96px;
+      font-family: OpenBold;
+    }
+    &__desc {
+      color: #140a32;
+      font-family: OpenRegular;
+      font-size: 16px;
+      font-style: normal;
+      line-height: 160%;
+    }
+    h3 {
+      margin-top: 80px;
+      font-size: 32px;
+      margin-bottom: 20px;
+      line-height: normal;
+      letter-spacing: -0.96px;
+      font-family: OpenBold;
+      margin-bottom: 15px;
+    }
+    .wrapper {
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 80px;
+      margin-top: 30px;
+      flex-wrap: wrap;
+      gap: 20px;
+      display: flex;
+      .mini__card {
+        margin: 0 auto;
+
+        position: relative;
+        gap: 15px;
+        border-radius: 20px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 230px;
+        height: 180px;
+        border: 1px solid rgba(47, 43, 67, 0.15);
+        p {
+          max-width: 230px;
+          font-size: 16px;
+          font-style: normal;
+        }
+        .bold_number {
+          font-size: 20px;
+          font-family: OpenBold;
+        }
+        a {
+          bottom: 20px;
+          left: 20px;
+          position: absolute;
+          text-decoration: none;
+          color: #33836e;
+          font-size: 16px;
+          font-family: OpenSemibold;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1020px) {
+  #consultation {
+    margin-top: 40px;
+    h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      line-height: normal;
+      letter-spacing: -0.96px;
+      font-family: OpenBold;
+    }
+    &__desc {
+      color: #140a32;
+      font-family: OpenRegular;
+      font-size: 16px;
+      font-style: normal;
+      line-height: 160%;
+    }
+    h3 {
+      margin-top: 80px;
+      font-size: 28px;
+      margin-bottom: 20px;
+      line-height: normal;
+      letter-spacing: -0.96px;
+      font-family: OpenBold;
+      margin-bottom: 15px;
+    }
+    .wrapper {
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 80px;
+      margin-top: 30px;
+      flex-wrap: wrap;
+      gap: 20px;
+      display: flex;
+      .mini__card {
+        margin: 0 auto;
+        position: relative;
+        gap: 15px;
+        border-radius: 20px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 200px;
+        height: 180px;
+        border: 1px solid rgba(47, 43, 67, 0.15);
+        p {
+          max-width: 230px;
+          font-size: 16px;
+          font-style: normal;
+        }
+        .bold_number {
+          font-size: 16px;
+          font-family: OpenBold;
+        }
+        a {
+          bottom: 20px;
+          left: 20px;
+          position: absolute;
+          text-decoration: none;
+          color: #33836e;
+          font-size: 16px;
+          font-family: OpenSemibold;
+        }
+      }
+    }
+    .banner {
+      margin-bottom: 80px;
+      display: flex;
+      width: 100%;
+      height: 200px;
+      border-radius: 20px;
+      background: #33836e;
+      position: relative;
+      overflow: hidden;
+      picture {
+        z-index: 2;
+        margin-left: 36px;
+      }
+      .round {
+        position: absolute;
+        top: 30px;
+      }
+      .round2 {
+        display: none;
+      }
+      .banner__info {
+        h3 {
+          margin-top: 50px;
+          color: #fff;
+          font-family: OpenSemibold;
+          font-size: 18px;
+          line-height: normal;
+          margin-bottom: 10px;
+        }
+        .number2 {
+          color: #fff;
+          font-family: OpenBold;
+          font-size: 38px;
+          letter-spacing: -1.26px;
+        }
+      }
+      .lawyers {
+        padding-top: 50px;
+        margin-left: 116px;
+        width: 260px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        &__txt {
+          color: #fff;
+          text-align: center;
+          font-family: OpenSemibold;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          padding-bottom: 20px;
+        }
+        &__photos {
+          position: relative;
+          .lawyer1 {
+            z-index: 1;
+          }
+          .lawyer2 {
+            position: absolute;
+            z-index: 2;
+            left: 24px;
+          }
+          .lawyer3 {
+            position: absolute;
+            z-index: 3;
+            left: 48px;
+          }
+          .lawyer4 {
+            position: absolute;
+            z-index: 4;
+            left: 71px;
+          }
+          .lawyer5 {
+            position: absolute;
+            z-index: 5;
+            left: 94px;
+          }
+          .lawyer6 {
+            position: absolute;
+            z-index: 6;
+            left: 119px;
+          }
+          .lawyer7 {
+            position: absolute;
+            z-index: 6;
+            left: 140px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 900px) {
+  #consultation {
+    margin-top: 40px;
+    h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      line-height: normal;
+      letter-spacing: -0.96px;
+      font-family: OpenBold;
+    }
+    &__desc {
+      color: #140a32;
+      font-family: OpenRegular;
+      font-size: 16px;
+      font-style: normal;
+      line-height: 160%;
+    }
+    h3 {
+      margin-top: 80px;
+      font-size: 28px;
+      margin-bottom: 20px;
+      line-height: normal;
+      letter-spacing: -0.96px;
+      font-family: OpenBold;
+      margin-bottom: 15px;
+    }
+    .wrapper {
+      margin-bottom: 80px;
+      margin-top: 30px;
+      flex-wrap: wrap;
+      gap: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .mini__card {
+        margin: 0;
+        position: relative;
+        gap: 15px;
+        border-radius: 20px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 200px;
+        height: 180px;
+        border: 1px solid rgba(47, 43, 67, 0.15);
+        p {
+          max-width: 230px;
+          font-size: 16px;
+          font-style: normal;
+        }
+        .bold_number {
+          font-size: 16px;
+          font-family: OpenBold;
+        }
+        a {
+          bottom: 20px;
+          left: 20px;
+          position: absolute;
+          text-decoration: none;
+          color: #33836e;
+          font-size: 16px;
+          font-family: OpenSemibold;
+        }
+      }
+    }
+    .banner {
+      margin-bottom: 60px;
+      display: flex;
+      width: 100%;
+      height: 200px;
+      border-radius: 20px;
+      background: #33836e;
+      position: relative;
+      overflow: hidden;
+      picture {
+        z-index: 2;
+        margin-left: 36px;
+      }
+      .round {
+        position: absolute;
+        top: 30px;
+      }
+      .round2 {
+        display: none;
+      }
+      .banner__info {
+        h3 {
+          margin-top: 60px;
+          color: #fff;
+          font-family: OpenSemibold;
+          font-size: 16px;
+          line-height: normal;
+          margin-bottom: 10px;
+        }
+        .number2 {
+          color: #fff;
+          font-family: OpenBold;
+          font-size: 32px;
+          letter-spacing: -1.26px;
+        }
+      }
+      .lawyers {
+        padding-top: 50px;
+        margin-left: 116px;
+        width: 260px;
+        display: none;
+        flex-direction: column;
+        align-items: start;
+        &__txt {
+          color: #fff;
+          text-align: center;
+          font-family: OpenSemibold;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          padding-bottom: 20px;
+        }
+        &__photos {
+          position: relative;
+          .lawyer1 {
+            z-index: 1;
+          }
+          .lawyer2 {
+            position: absolute;
+            z-index: 2;
+            left: 24px;
+          }
+          .lawyer3 {
+            position: absolute;
+            z-index: 3;
+            left: 48px;
+          }
+          .lawyer4 {
+            position: absolute;
+            z-index: 4;
+            left: 71px;
+          }
+          .lawyer5 {
+            position: absolute;
+            z-index: 5;
+            left: 94px;
+          }
+          .lawyer6 {
+            position: absolute;
+            z-index: 6;
+            left: 119px;
+          }
+          .lawyer7 {
+            position: absolute;
+            z-index: 6;
+            left: 140px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 576px) {
+  #consultation {
+    margin-top: 40px;
+    h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      line-height: normal;
+      letter-spacing: -0.96px;
+      font-family: OpenBold;
+    }
+    &__desc {
+      color: #140a32;
+      font-family: OpenRegular;
+      font-size: 16px;
+      font-style: normal;
+      line-height: 160%;
+    }
+    h3 {
+      margin-top: 80px;
+      font-size: 28px;
+      margin-bottom: 20px;
+      line-height: normal;
+      letter-spacing: -0.96px;
+      font-family: OpenBold;
+      margin-bottom: 15px;
+    }
+    .wrapper {
+      margin-bottom: 80px;
+      margin-top: 30px;
+      flex-wrap: wrap;
+      gap: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .mini__card {
+        margin: 0;
+        position: relative;
+        gap: 15px;
+        border-radius: 20px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 200px;
+        height: 180px;
+        border: 1px solid rgba(47, 43, 67, 0.15);
+        p {
+          max-width: 230px;
+          font-size: 16px;
+          font-style: normal;
+        }
+        .bold_number {
+          font-size: 16px;
+          font-family: OpenBold;
+        }
+        a {
+          bottom: 20px;
+          left: 20px;
+          position: absolute;
+          text-decoration: none;
+          color: #33836e;
+          font-size: 16px;
+          font-family: OpenSemibold;
+        }
+      }
+    }
+    .banner {
+      flex-direction: column;
+      padding: 30px;
+      margin-bottom: 40px;
+      display: flex;
+      width: 100%;
+      height: 291px;
+      border-radius: 20px;
+      background: #33836e;
+      position: relative;
+      overflow: hidden;
+      picture {
+        z-index: 2;
+        left: 0;
+        top: 109px;
+        position: absolute;
+        margin-left: -30px;
+      }
+      .round {
+        display: none;
+      }
+      .round2 {
+        top: 139.18px;
+        position: absolute;
+        left: 0;
+        display: block;
+      }
+      .banner__info {
+        margin-left: 0;
+        h3 {
+          font-size: 18px;
+          margin-top: 0px;
+          margin-bottom: 5px;
+        }
+        .number2 {
+          color: #fff;
+          font-family: OpenBold;
+          font-size: 36px;
+          letter-spacing: -1.08px;
+        }
+      }
+      .lawyers {
+        padding-top: 50px;
+        margin-left: 170px;
+        width: 260px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        &__txt {
+          z-index: 99;
+          color: #fff;
+          text-align: center;
+          font-family: OpenSemibold;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          padding-bottom: 20px;
+        }
+        &__photos {
+          position: relative;
+          .lawyer1 {
+            width: 40px;
+            height: 40px;
+            z-index: 1;
+          }
+          .lawyer2 {
+            width: 40px;
+            height: 40px;
+            z-index: 2;
+          }
+          .lawyer3 {
+            width: 40px;
+            height: 40px;
+            z-index: 3;
+          }
+          .lawyer4 {
+            width: 40px;
+            height: 40px;
+            z-index: 4;
+          }
+          .lawyer5 {
+            width: 40px;
+            height: 40px;
+            z-index: 5;
+          }
+          .lawyer6 {
+            width: 40px;
+            height: 40px;
+            z-index: 6;
+          }
+          .lawyer7 {
+            width: 40px;
+            height: 40px;
+            z-index: 6;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 500px) {
+  #consultation {
+    margin-top: 40px;
+    h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      line-height: normal;
+      letter-spacing: -0.96px;
+      font-family: OpenBold;
+    }
+    &__desc {
+      color: #140a32;
+      font-family: OpenRegular;
+      font-size: 16px;
+      font-style: normal;
+      line-height: 160%;
+    }
+    h3 {
+      margin-top: 80px;
+      font-size: 28px;
+      margin-bottom: 20px;
+      line-height: normal;
+      letter-spacing: -0.96px;
+      font-family: OpenBold;
+      margin-bottom: 15px;
+    }
+    .wrapper {
+      margin-bottom: 80px;
+      margin-top: 30px;
+      flex-wrap: wrap;
+      gap: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .mini__card {
+        margin: 0;
+        position: relative;
+        gap: 15px;
+        border-radius: 20px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 200px;
+        height: 180px;
+        border: 1px solid rgba(47, 43, 67, 0.15);
+        p {
+          max-width: 230px;
+          font-size: 16px;
+          font-style: normal;
+        }
+        .bold_number {
+          font-size: 16px;
+          font-family: OpenBold;
+        }
+        a {
+          bottom: 20px;
+          left: 20px;
+          position: absolute;
+          text-decoration: none;
+          color: #33836e;
+          font-size: 16px;
+          font-family: OpenSemibold;
+        }
+      }
+    }
+    .banner {
+      flex-direction: column;
+      padding: 30px;
+      margin-bottom: 40px;
+      display: flex;
+      width: 100%;
+      height: 291px;
+      border-radius: 20px;
+      background: #33836e;
+      position: relative;
+      overflow: hidden;
+      picture {
+        z-index: 2;
+        left: 0;
+        top: 109px;
+        position: absolute;
+        margin-left: -30px;
+      }
+      .round {
+        display: none;
+      }
+      .round2 {
+        top: 139.18px;
+        position: absolute;
+        left: 0;
+        display: block;
+      }
+      .banner__info {
+        margin-left: 0;
+        h3 {
+          font-size: 18px;
+          margin-top: 0px;
+          margin-bottom: 5px;
+        }
+        .number2 {
+          color: #fff;
+          font-family: OpenBold;
+          font-size: 36px;
+          letter-spacing: -1.08px;
+        }
+      }
+      .lawyers {
+        padding-top: 50px;
+        margin-left: 170px;
+        width: 260px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        &__txt {
+          z-index: 99;
+          color: #fff;
+          text-align: center;
+          font-family: OpenSemibold;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          padding-bottom: 20px;
+        }
+        &__photos {
+          position: relative;
+          .lawyer1 {
+            width: 40px;
+            height: 40px;
+            z-index: 1;
+          }
+          .lawyer2 {
+            width: 40px;
+            height: 40px;
+            z-index: 2;
+          }
+          .lawyer3 {
+            width: 40px;
+            height: 40px;
+            z-index: 3;
+          }
+          .lawyer4 {
+            width: 40px;
+            height: 40px;
+            z-index: 4;
+          }
+          .lawyer5 {
+            width: 40px;
+            height: 40px;
+            z-index: 5;
+          }
+          .lawyer6 {
+            width: 40px;
+            height: 40px;
+            z-index: 6;
+          }
+          .lawyer7 {
+            width: 40px;
+            height: 40px;
+            z-index: 6;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 440px) {
+  #consultation {
+    margin-top: 40px;
+    h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      line-height: normal;
+      letter-spacing: -0.96px;
+      font-family: OpenBold;
+    }
+    &__desc {
+      color: #140a32;
+      font-family: OpenRegular;
+      font-size: 16px;
+      font-style: normal;
+      line-height: 160%;
+    }
+    h3 {
+      margin-top: 40px;
+      font-size: 24px;
+      margin-bottom: 20px;
+      line-height: normal;
+      letter-spacing: -0.96px;
+      font-family: OpenBold;
+      margin-bottom: 15px;
+    }
+    .wrapper {
+      margin-bottom: 80px;
+      margin-top: 30px;
+      flex-wrap: wrap;
+      gap: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .mini__card {
+        margin: 0;
+        position: relative;
+        gap: 15px;
+        border-radius: 20px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 180px;
+        height: 180px;
+        border: 1px solid rgba(47, 43, 67, 0.15);
+        p {
+          max-width: 230px;
+          font-size: 16px;
+          font-style: normal;
+        }
+        .bold_number {
+          font-size: 16px;
+          font-family: OpenBold;
+        }
+        a {
+          bottom: 20px;
+          left: 20px;
+          position: absolute;
+          text-decoration: none;
+          color: #33836e;
+          font-size: 16px;
+          font-family: OpenSemibold;
+        }
+      }
+    }
+    .banner {
+      flex-direction: column;
+      padding: 30px;
+      margin-bottom: 40px;
+      display: flex;
+      width: 100%;
+      height: 291px;
+      border-radius: 20px;
+      background: #33836e;
+      position: relative;
+      overflow: hidden;
+      picture {
+        z-index: 2;
+        left: 0;
+        top: 109px;
+        position: absolute;
+        margin-left: -30px;
+      }
+      .round {
+        display: none;
+      }
+      .round2 {
+        top: 139.18px;
+        position: absolute;
+        left: 0;
+        display: block;
+      }
+      .banner__info {
+        h3 {
+          font-size: 18px;
+          margin-top: 0px;
+          margin-bottom: 5px;
+        }
+        .number2 {
+          color: #fff;
+          font-family: OpenBold;
+          font-size: 36px;
+          letter-spacing: -1.08px;
+        }
+      }
+      .lawyers {
+        padding-top: 50px;
+        margin-left: 116px;
+        width: 260px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        &__txt {
+          z-index: 99;
+          color: #fff;
+          text-align: center;
+          font-family: OpenSemibold;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          padding-bottom: 20px;
+        }
+        &__photos {
+          position: relative;
+          .lawyer1 {
+            width: 40px;
+            height: 40px;
+            z-index: 1;
+          }
+          .lawyer2 {
+            width: 40px;
+            height: 40px;
+            z-index: 2;
+          }
+          .lawyer3 {
+            width: 40px;
+            height: 40px;
+            z-index: 3;
+          }
+          .lawyer4 {
+            width: 40px;
+            height: 40px;
+            z-index: 4;
+          }
+          .lawyer5 {
+            width: 40px;
+            height: 40px;
+            z-index: 5;
+          }
+          .lawyer6 {
+            width: 40px;
+            height: 40px;
+            z-index: 6;
+          }
+          .lawyer7 {
+            width: 40px;
+            height: 40px;
+            z-index: 6;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 400px) {
+  #consultation {
+    margin-top: 40px;
+    h2 {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+    p {
+      font-size: 14px;
+      line-height: 160%;
+    }
+    h3 {
+      margin-top: 40px;
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+    .wrapper {
+      margin-bottom: 40px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+      gap: 10px;
+      display: flex;
+      .mini__card:nth-child(3) {
+        height: 170px;
+      }
+      .mini__card:nth-child(4) {
+        height: 170px;
+      }
+      .mini__card {
+        position: relative;
+        gap: 15px;
+        border-radius: 20px;
+        padding: 20px;
+        display: flex;
+        width: 175px;
+        height: 191px;
+        border: 1px solid rgba(47, 43, 67, 0.15);
+        p {
+          font-size: 14px;
+        }
+        .bold_number {
+          min-width: 135px;
+          font-size: 18px;
+        }
+        a {
+          font-size: 14px;
+          font-family: OpenSemibold;
+        }
+      }
+    }
+    .banner {
+      flex-direction: column;
+      padding: 30px;
+      margin-bottom: 40px;
+      display: flex;
+      width: 100%;
+      height: 291px;
+      border-radius: 20px;
+      background: #33836e;
+      position: relative;
+      overflow: hidden;
+      picture {
+        z-index: 2;
+        left: 0;
+        top: 109px;
+        position: absolute;
+        margin-left: -30px;
+      }
+      .round {
+        display: none;
+      }
+      .round2 {
+        top: 139.18px;
+        position: absolute;
+        left: 0;
+        display: block;
+      }
+      .banner__info {
+        h3 {
+          font-size: 18px;
+          margin-top: 0px;
+          margin-bottom: 5px;
+        }
+        .number2 {
+          color: #fff;
+          font-family: OpenBold;
+          font-size: 36px;
+          letter-spacing: -1.08px;
+        }
+      }
+      .lawyers {
+        padding-top: 50px;
+        margin-left: 116px;
+        width: 260px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        &__txt {
+          z-index: 99;
+          color: #fff;
+          text-align: center;
+          font-family: OpenSemibold;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          padding-bottom: 20px;
+        }
+        &__photos {
+          position: relative;
+          .lawyer1 {
+            width: 40px;
+            height: 40px;
+            z-index: 1;
+          }
+          .lawyer2 {
+            width: 40px;
+            height: 40px;
+            z-index: 2;
+          }
+          .lawyer3 {
+            width: 40px;
+            height: 40px;
+            z-index: 3;
+          }
+          .lawyer4 {
+            width: 40px;
+            height: 40px;
+            z-index: 4;
+          }
+          .lawyer5 {
+            width: 40px;
+            height: 40px;
+            z-index: 5;
+          }
+          .lawyer6 {
+            width: 40px;
+            height: 40px;
+            z-index: 6;
+          }
+          .lawyer7 {
+            width: 40px;
+            height: 40px;
+            z-index: 6;
+          }
+        }
+      }
+    }
+  }
+}

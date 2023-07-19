@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link rel="icon" href="./assets/icons/favicon.svg" />
+    <title>100 Юристов</title>
+    <!-- main css -->
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <!-- HEADER STARTED -->
+
+    <header>
+      <div class="container">
+        <nav class="nav">
+          <a class="nav__menu" href="#"
+            ><img src="./assets/icons/menu.svg" alt=""
+          /></a>
+          <a class="nav__logo" href="#"
+            ><img src="/assets/icons/logo.svg" alt="logo"
+          /></a>
+          <div class="nav__input">
+            <input type="text" name="search" placeholder="Я хочу найти..." />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M16.4697 16.4697C16.7626 16.1768 17.2374 16.1768 17.5303 16.4697L21.5303 20.4697C21.8232 20.7626 21.8232 21.2374 21.5303 21.5303C21.2374 21.8232 20.7626 21.8232 20.4697 21.5303L16.4697 17.5303C16.1768 17.2374 16.1768 16.7626 16.4697 16.4697Z"
+                fill="#2F2B43"
+                fill-opacity="0.4"
+              />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M11 3.75C6.99594 3.75 3.75 6.99594 3.75 11C3.75 15.0041 6.99594 18.25 11 18.25C13.0057 18.25 14.82 17.4365 16.1333 16.1197C17.4421 14.8074 18.25 12.9988 18.25 11C18.25 6.99594 15.0041 3.75 11 3.75ZM2.25 11C2.25 6.16751 6.16751 2.25 11 2.25C15.8325 2.25 19.75 6.16751 19.75 11C19.75 13.4118 18.7732 15.597 17.1954 17.179C15.6121 18.7664 13.4202 19.75 11 19.75C6.16751 19.75 2.25 15.8325 2.25 11Z"
+                fill="#2F2B43"
+                fill-opacity="0.4"
+              />
+            </svg>
+          </div>
+          <button class="nav__btn">
+            <img src="./assets/icons/question.svg" alt="ask" />
+            <p>Задать вопрос</p>
+          </button>
+          <div class="nav__info">
+            <a href="tel:8 800 302-92-70">8 800 302-92-70</a>
+            <p>Бесплатный звонок юристу 24/7</p>
+          </div>
+          <img class="nav__profile" src="./assets/icons/user.svg" alt="" />
+        </nav>
+      </div>
+    </header>
+    <!-- HEADER ENDED -->
+        <section id="modalpopup">
+            <div class="container">
+                <div class="modalpopupwrapper">
+                  <img
+                        class="popupwomansmall"
+                        src="./assets/images/popupwomansmall.png"
+                        alt=""
+                    /> 
+                    <img
+                        class="popuproundsmall"
+                        src="./assets/images/popuproundsmall.png"
+                        alt=""
+                    />
+                    <img
+                        class="woman-working"
+                        src="./assets/images/popup-woman.png"
+                        alt=""
+                    /> 
+                    <img
+                        class="modalround"
+                        src="./assets/images/modalround.png"
+                        alt=""
+                    />
+
+                    <div id="popup-wrapper">
+                        <img
+                            class="close"
+                            src="./assets/icons/close_thick.svg"
+                            alt=""
+                        />
+                        <h3 class="popup-h3">
+                            Бесплатная юридическая консультация по телефону
+                        </h3>
+                        <div class="yuristlar">
+                            <p class="yuristlar-p">64 юриста сейчас онлайн</p>
+                            <div class="rasmlar">
+                                <img
+                                    class="e15"
+                                    src="./assets/images/Ellipse15.svg"
+                                    alt=""
+                                />
+                                <img
+                                    class="e16"
+                                    src="./assets/images/Ellipse19.svg"
+                                    alt=""
+                                />
+                                <img
+                                    class="e17"
+                                    src="./assets/images/Ellipse16.svg"
+                                    alt=""
+                                />
+                                <img
+                                    class="e18"
+                                    src="./assets/images/Ellipse17.svg"
+                                    alt=""
+                                />
+                                <img
+                                    class="e19"
+                                    src="./assets/images/Ellipse18.svg"
+                                    alt=""
+                                />
+                                <img
+                                    class="e20"
+                                    src="./assets/images/Ellipse19.svg"
+                                    alt=""
+                                />
+                                <img
+                                    class="e21"
+                                    src="./assets/icons/59.svg"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                        <form id="form_sub" class="popup-buttonlar">
+                            <button class="popup-button one">
+                                <p class="popup-button-p">Номер телефона</p>
+                                <input required
+                                    class="popup-input"
+                                    placeholder="+7 963 335-87-52"
+                                />
+                            </button>
+                            <button class="popup-button two">
+                                <p class="popup-button-p">Ваше имя</p>
+                                <input required
+                                id="popup_input2"
+                                    class="popup-input"
+                                    placeholder="Александр"
+                                />
+                            </button>
+                            <input  type="submit" value="Отправить"
+                                class="popup-button-three"
+                                id="submit_button"
+                            >
+                                
+                            </input>
+                        </form>
+                        <p class="popup-glavniy-p">
+                            Отправляя вопрос, вы соглашаетесь с условиями
+                            <span>Пользовательского соглашения</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="modalpopupwrapper2">
+                    <div id="close_btn_2" >
+                        <img
+                        class="closebtn"
+                        src="./assets/icons/close_thick.svg"
+                        alt=""
+                    />
+                    </div>
+                    <img class="done" src="./assets/icons/check80.svg" alt="" />
+                    <div class="modal2-content">
+                        <h3 class="modal2-h3">Спасибо, ваша заявка принята</h3>
+                        <p class="modal2-p">
+                            Мы свяжемся с вами в течение х минут
+                        </p>
+                    </div>
+                    <button id="close_btn_3" class="modal2-btn">Закрыть окно</button>
+                </div>
+            </div>
+        </section>
+
+        <div  class="blur"></div>
+    <main>
+      <!-- HEADER INFO SECTION STARTED -->
+      <section id="header_info">
+        <div class="container">
+          <div class="content">
+            <div class="content_btns">
+              <button class="content__btn">
+                <img src="./assets/icons/phone.svg" alt="phone" />
+                <p>Заказать звонок</p>
+              </button>
+              <button class="content__btn second_btn">
+                <img src="./assets/icons/telegram.svg" alt="Telegram" />
+                <p>Telegram</p>
+              </button>
+            </div>
+            <ul class="content__list">
+              <li><a href="#">Отзывы</a></li>
+              <li><a href="#">Вопросы</a></li>
+              <li><a href="#">Наши юристы</a></li>
+              <li><a href="#">Статьи</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+            <a class="content__login" href="#"
+              ><img src="./assets/icons/user.svg" alt="" /> Вход /
+              Регистрация</a
+            >
+          </div>
+        </div>
+      </section>
+      <!-- HEADER INFO SECTION ENDED -->
+
+      <!-- HERO INFO SECTION STARTED -->
+      <section id="hero">
+        <div class="container">
+          <div class="wrapper">
+            <div class="wrapper__left">
+              <p class="wrapper__left__path">Главная / Горячая линия</p>
+              <h1 class="wrapper__left__title">
+                Горячая линия по оказанию юридической помощи онлайн
+              </h1>
+              <p class="wrapper__left__desc">
+                Профессиональная помощь доступна круглосуточно – заявки
+                обрабатываются в любое время дня и ночи. Обращаясь к
+                специалистам «100 Юристов», вы можете рассчитывать на
+                прозрачные, понятные условия сотрудничества
+              </p>
+              <div class="wrapper__left__btns">
+                <button id="modal_btn"> Задать вопрос юристу</button>
+                <div>
+                  <a href="#">8 800 302-92-70</a>
+                  <p>Бесплатный звонок юристу 24/7</p>
+                </div>
+              </div>
+              <ul class="wrapper__left__list">
+                <li class="a_1">
+                  <a href="#"
+                    ><img
+                      src="./assets/icons/clock.svg"
+                      alt="clock"
+                    />Круглосуточно</a
+                  >
+                </li>
+                <li class="a_2">
+                  <a href="#"
+                    ><img
+                      src="./assets/icons/money-square.svg"
+                      alt="money"
+                    />Бесплатно</a
+                  >
+                </li>
+                <li class="a_4">
+                  <a href="#"
+                    ><img
+                      src="./assets/icons/lock.svg"
+                      alt="lock"
+                    />Конфиденциально</a
+                  >
+                </li>
+                <li class="a_3">
+                  <a href="#"
+                    ><img src="./assets/icons/flash.svg" alt="flash" />Быстро</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="wrapper__right">
+              <div class="ellipse">
+                <picture>
+                  <img
+                    src="./assets/images/main_img.png"
+                    alt=""
+                    srcset="
+                      ./assets/images/main_img.png 1x,
+                      ./assets/images/main_2x.png  2x
+                    "
+                  />
+                </picture>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- HERO INFO SECTION ENDED -->
+
+      <!-- CONSULTATION INFO SECTION STARTED -->
+      <section id="consultation">
+        <div class="container">
+          <h2>Юридическая помощь</h2>
+          <p class="consultation__desc">
+            Срочно понадобились услуги профессионального юриста или адвоката?
+            Решение есть! Наша горячая юридическая линия – возможность
+            оперативно, абсолютно бесплатно получить ответ на любой вопрос.
+            Теперь не нужно записываться на офлайн-прием и тратить время на
+            поездку и очереди перед кабинетом. <br />
+            <br />
+            Профессиональная помощь доступна круглосуточно – заявки
+            обрабатываются в любое время дня и ночи. Обращаясь к специалистам
+            «100 Юристов», вы можете рассчитывать на прозрачные, понятные
+            условия сотрудничества.
+          </p>
+          <h3>Как получить бесплатную юридическую консультацию?</h3>
+          <p class="consultation__desc">
+            Задайте вопрос юристу бесплатно круглосуточно и без регистрации
+          </p>
+          <div class="wrapper" id="consultation__wrapper"></div>
+          <div class="banner">
+            <picture>
+              <img
+                class="call_admin"
+                src="./assets/images/woman-working-call-center.png"
+                srcset="
+                  ./assets/images/woman-working-call-center.png   1x,
+                  ./assets/images/woman-working-call-center2x.png 2x
+                "
+                alt=""
+              />
+            </picture>
+            <img class="round" src="./assets/icons/round.svg" alt="" />
+            <img class="round2" src="./assets/icons/round2.svg" alt="" />
+
+            <div class="banner__info">
+              <h3>Звоните, мы работаем 24/7</h3>
+              <a class="number2" href="tel:8 800 302-92-70">8 800 302-92-70</a>
+            </div>
+            <div class="lawyers">
+              <p class="lawyers__txt">64 юриста сейчас онлайн</p>
+              <div class="lawyers__photos">
+                <img
+                  class="lawyer1"
+                  src="./assets/images/Ellipse15.svg"
+                  alt=""
+                />
+                <img
+                  class="lawyer2"
+                  src="./assets/images/Ellipse19.svg"
+                  alt=""
+                />
+                <img
+                  class="lawyer3"
+                  src="./assets/images/Ellipse16.svg"
+                  alt=""
+                />
+                <img
+                  class="lawyer4"
+                  src="./assets/images/Ellipse17.svg"
+                  alt=""
+                />
+                <img
+                  class="lawyer5"
+                  src="./assets/images/Ellipse18.svg"
+                  alt=""
+                />
+                <img
+                  class="lawyer6"
+                  src="./assets/images/Ellipse19.svg"
+                  alt=""
+                />
+                <img class="lawyer7" src="./assets/icons/59.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CONSULTATION INFO SECTION ENDED -->
+
+      <!-- CONSULTATION INFO SECTION STARTED -->
+      <section id="needHelp">
+        <div class="container">
+          <h4>Как мы сможем помочь вам?</h4>
+          <div class="wrapper" id="needHelp__wrapper"></div>
+        </div>
+      </section>
+      <!-- CONSULTATION INFO SECTION ENDED -->
+      <!-- CHOOSE US SECTION STARTED -->
+      <section id="choose_us">
+        <div class="container">
+          <div class="wrapper">
+            <div class="wrapper__left">
+              <h5>Почему стоит выбрать нас?</h5>
+              <p>
+                Срочно понадобились услуги профессионального юриста или
+                адвоката? Решение есть! Наша горячая юридическая линия –
+                возможность оперативно, абсолютно бесплатно получить ответ на
+                любой вопрос
+              </p>
+              <div class="choose_us_info">
+                <div class="info_1">
+                  <a href="#">100 тыс</a>
+                  <p>Успешных дел</p>
+                </div>
+                <div class="info_1">
+                  <a href="#">10 лет</a>
+                  <p>Успешной работы</p>
+                </div>
+                <div class="info_1">
+                  <a href="#">100</a>
+                  <p>Юристов онлайн</p>
+                </div>
+              </div>
+            </div>
+            <div class="wrapper__right">
+              <picture>
+                <img
+                  class="manager"
+                  src="./assets/images/pngegg.png"
+                  srcset="
+                    ./assets/images/pngegg.png   1x,
+                    ./assets/images/pngegg2x.png 2x
+                  "
+                  alt=""
+                />
+              </picture>
+            </div>
+          </div>
+          <div class="info_box">
+            <div class="info_box_left">
+              <h6>Телефон горячей линии</h6>
+              <a href="tel:8 800 302-92-70">8 800 302-92-70</a>
+            </div>
+            <div class="info_box_right">
+              <form action="https://echo.htmlacademy.ru/courses">
+                <p>Заказать обратный звонок</p>
+                <div class="btns">
+                  <div class="form_number">
+                    <label for="number">Номер телефона</label>
+                    <input class="choose_input" required
+                      type="number"
+                      name="number"
+                      placeholder="+7 963 335-87-52"
+                    />
+                  </div>
+                  <input type="submit" value="Заказать звонок"></input>
+                </div>
+                <p class="box_txt">
+                  Отправляя вопрос, вы соглашаетесь с условиями
+                  <span>Пользовательского соглашения</span>
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CHOOSE US SECTION ENDED -->
+
+      <!-- specializes US SECTION STARTED -->
+      <section id="specializes">
+        <div class="container">
+          <h6>Специальности наших юристов</h6>
+          <div id="specializes_wrapper">
+            <!--  -->
+          </div>
+        </div>
+      </section>
+      <!-- specializes US SECTION ENDED -->
+
+      <!-- question US SECTION STARTED -->
+      <section id="question">
+        <div class="container">
+          <div class="question_card">
+            <h4>Задайте вопрос юристу бесплатно</h4>
+            <div class="question_card_center">
+              <form action="https://echo.htmlacademy.ru/courses">
+                <div class="btns">
+                  <div class="form_number">
+                    <label>Номер телефона</label>
+                    <input required
+                    class="question_input"
+                      type="number"
+                      name="number"
+                      placeholder="+7 963 335-87-52"
+                    />
+                  </div>
+                  <input class="submit_1" type="submit" value="Задать вопрос юристу"></input>
+                  <input class="submit_2" type="submit" value="Заказать звонок"></input>
+                </div>
+                <p class="box_txt">
+                  Отправляя вопрос, вы соглашаетесь с условиями
+                  <span>Пользовательского соглашения</span>
+                </p>
+              </form>
+            </div>
+            <picture>
+              <img
+                class="phone_banner"
+                src="./assets/images/1.png"
+                srcset="./assets/images/1.png 1x, ./assets/images/1@2x.png 2x"
+                alt="phone_banner"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+      <!-- question US SECTION ENDED -->
+
+      <!-- seo SECTION STARTED -->
+      <section id="seo">
+        <div class="container">
+          <div class="desktop">
+            <h5>Блок для SEO текста</h5>
+            <p class="seo_txt">
+              Срочно понадобились услуги профессионального юриста или адвоката?
+              Решение есть! Наша горячая юридическая линия – возможность
+              оперативно, абсолютно бесплатно получить ответ на любой вопрос.
+              Теперь не нужно записываться на офлайн-прием и тратить время на
+              поездку и очереди перед кабинетом. <br />
+              <br />
+              Профессиональная помощь доступна круглосуточно – заявки
+              обрабатываются в любое время дня и ночи. Обращаясь к специалистам
+              «100 Юристов», вы можете рассчитывать на прозрачные, понятные
+              условия сотрудничества.
+            </p>
+            <button>Показать весь текст</button>
+          </div>
+          <div class="mobile">
+            <h5>Юридическая помощь</h5>
+            <p class="seo_txt">
+              Срочно понадобились услуги профессионального юриста или адвоката?
+              Решение есть! Наша горячая юридическая линия – возможность
+              оперативно, абсолютно бесплатно получить ответ на любой вопрос.
+              Теперь не нужно записываться на офлайн-прием и тратить время на
+              поездку и очереди перед кабинетом. <br />
+              <br />
+              Профессиональная помощь доступна круглосуточно – заявки
+              обрабатываются в любое время дня и ночи. Обращаясь к специалистам
+              «100 Юристов», вы можете рассчитывать на прозрачные, понятные
+              условия сотрудничества.
+            </p>
+            <button>Показать весь текст</button>
+          </div>
+        </div>
+      </section>
+      <!-- seo SECTION ENDED -->
+
+      <!-- comments SECTION STARTED -->
+      <section id="comments">
+        <div class="container">
+          <h2>Отзывы наших клиентов</h2>
+          <div class="rendercomment">
+            <div id="comments_wrapper"></div>
+
+          </div>
+           <div class="btns">
+            <div id="btn_left"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12.0303 18.5303C12.3232 18.2374 12.3232 17.7626 12.0303 17.4697L7.31066 12.75L18 12.75C18.4142 12.75 18.75 12.4142 18.75 12C18.75 11.5858 18.4142 11.25 18 11.25L7.31066 11.25L12.0303 6.53033C12.3232 6.23744 12.3232 5.76256 12.0303 5.46967C11.7374 5.17678 11.2626 5.17678 10.9697 5.46967L4.96967 11.4697C4.67678 11.7626 4.67678 12.2374 4.96967 12.5303L10.9697 18.5303C11.2626 18.8232 11.7374 18.8232 12.0303 18.5303Z" fill="#2F2B43"/>
+</svg></div>
+            <div id="btn_right"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M11.9697 5.46967C11.6768 5.76256 11.6768 6.23744 11.9697 6.53033L16.6893 11.25H6C5.58579 11.25 5.25 11.5858 5.25 12C5.25 12.4142 5.58579 12.75 6 12.75H16.6893L11.9697 17.4697C11.6768 17.7626 11.6768 18.2374 11.9697 18.5303C12.2626 18.8232 12.7374 18.8232 13.0303 18.5303L19.0303 12.5303C19.3232 12.2374 19.3232 11.7626 19.0303 11.4697L13.0303 5.46967C12.7374 5.17678 12.2626 5.17678 11.9697 5.46967Z" fill="#2F2B43"/>
+</svg></div>
+          </div>
+        </div>
+       
+      </section>
+      <!-- comments SECTION ENDED -->
+      <!-- portal SECTION STARTED -->
+      <section id="portal">
+        <div class="container">
+          <h3>Юристы портала</h3>
+          <div class="portal_wrapper">
+            <div id="portal_wrapper_left"></div>
+            <div class="right">
+              <div class="wrapper">
+                <div class="content">
+                  <h3 class="content_h3">Задать вопрос юристу</h3>
+                  <p class="content_p">
+                    Напишите ваш вопрос мы обязательно вам ответим
+                  </p>
+                </div>
+                <button class="online">
+                  <span></span>
+                  <p>Онлайн</p>
+                </button>
+              </div>
+
+              <div class="textarea_wrapper">
+                <textarea
+                  rows="40"
+                  placeholder="Опишите вашу проблему..."
+                ></textarea>
+              </div>
+              <form action="https://echo.htmlacademy.ru/courses" class="btns">
+                <button class="btn one">
+                  <label for="number" class="btn_p">Номер телефона</label>
+                  <input class="portal_in1" required type="number" name="number" placeholder="+7 963 335-87-52" class="btn_a" href="tel:+7 963 335-87-52"
+                    ></input>
+                </button>
+                <button class="btn two">
+                  <label for="name" class="btn_p">Ваше имя</label>
+                  <input class="portal_in2" required type="text" name="name" class="btn_a" placeholder="Александр" href="#"></input>
+                </button>
+                <input type="submit" class="yurist-button-three"></input>
+            </form>
+              <p class="yurist-glavniy-p">
+                Отправляя вопрос, вы соглашаетесь с условиями
+                <span>Пользовательского соглашения</span>
+              </p>
+              <div class="yurist-kerakmas-info">
+                <div class="kerakmas-info">
+                  <h4>48 юристов</h4>
+                  <p>сейчас онлайн</p>
+                </div>
+                <div class="kerakmas-info">
+                  <h4>10 минут</h4>
+                  <p>средняя скорость ответа</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- portal SECTION ENDED -->
+    </main>
+    <footer id="footer">
+        <div class="container">
+            <h2>Темы справочных материалов</h2>
+            <div id="footer_wrapper">
+            </div>
+        </div>
+    </footer>
+  </body>
+  <script src="./app.js"></script>
+  <script src="./utils.js"></script>
+</html>
+<!-- npx json-server --watch db.json -->
+
+
+<!-- 1160 -->
+<!-- 960 -->
+<!-- 768 -->
+<!-- 576 -->
+<!-- 390 -->
